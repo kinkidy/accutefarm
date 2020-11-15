@@ -270,6 +270,15 @@ a {
 }
 
 /*Services*/
+.sfaculty {
+  background: url("src/images/hut.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1F6233;
+  color: #ffffff;
+  padding: 2rem 0;
+}
 .service-page{
   background-color: #F4F4F4;
   text-align: left;
@@ -303,6 +312,9 @@ a {
   padding-bottom: 0.5rem !important;
   margin-left: 1rem;
   margin-bottom: 2rem;
+  padding: 1rem 0 1.5rem;
+  font-weight: 600;
+  color: #5c5b5b !important;
 }
 .service p {
   color: #a09f9f;
@@ -310,17 +322,21 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.service-name {
-  padding: 1rem 0 1.5rem;
-  font-weight: 600;
-  color: #5c5b5b !important;
-}
 .service img {
   height:100%;
   width: 100%;
 }
 
 /*Product section page*/
+.pfaculty {
+  background: url("src/images/export.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1F6233;
+  color: #ffffff;
+  padding: 2rem 0;
+}
 .product-section-page {
   padding-top: 5rem;
 }
@@ -333,6 +349,15 @@ a {
 }
 
 /*about page*/
+.afaculty {
+  background: url("src/images/crops.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1F6233;
+  color: #ffffff;
+  padding: 2rem 0;
+}
 .about-page {
   padding: 5rem 0 5rem;
   color: #999898;
@@ -347,5 +372,54 @@ a {
 .about-page p {
   padding-top: 2rem;
   padding-left: 8rem;
-
+}
+/*Contact page*/
+.contact-page {
+  padding: 5rem 0 5rem;
+  color: #999898;
+  line-height: 1.5rem;
+}
+.contact-page h1{
+  border-left:5rem solid #1F6233;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.contact-page p, h3 {
+  margin-left: 8rem;
+}
+.contact-social {
+  display:  grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  /* grid-gap: 5rem 4rem;
+  padding: 5rem 7rem 7rem 5.5rem; */
+  text-align: left;
+}
+.contact-name {
+  width: auto;
+  border-bottom: 3px solid #1F6233;
+  margin-bottom: 2rem;
+  padding: 5rem 0 1.5rem;
+  font-weight: 600;
+  color: #5c5b5b !important;
+  margin-left: 8rem;
+}
+.contact-social .contact-name {
+  width: auto;
+  border-bottom: 3px solid #1F6233;
+  margin-bottom: 2rem;
+  padding: 1rem 0 1.5rem;
+  font-weight: 600;
+  color: #5c5b5b !important;
+  margin-left: 8rem;
+  margin-top: 0rem;
+}
+.contact-name p, h3 {
+  margin-left: 0rem;
+}
+.contact-page ul {
+  margin-left: 8rem;
+}
+.contact-page li {
+  display: block;
 }
