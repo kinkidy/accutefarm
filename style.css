@@ -123,9 +123,6 @@ a {
   height:100%;
   width: 100%;
 }
-.teacher-img {
-  height: 50%;
-}
 .teacher-name {
   padding: 1rem 0 1.5rem;
   font-weight: 600;
@@ -192,15 +189,15 @@ a {
 .about-educator p {
   color: #ffffff;
 }
-.learning h4 {
+.quicklink h4 {
   margin-bottom: 1.4rem;
   letter-spacing: .16rem;
 }
-.learning p, a {
+.quicklink p, a {
   line-height: 1.5rem;
   font-size: .8rem;
 }
-.learning li {
+.quicklink li {
   display: block;
 }
 .footer-copyright{
@@ -270,4 +267,85 @@ a {
   font-family: 'Montserrat', sans-serif;
   color: rgba(105, 102, 102, 0.616);
   padding-top: 8rem;
+}
+
+/*Services*/
+.service-page{
+  background-color: #F4F4F4;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(105, 102, 102, 0.616);
+  padding-top: 5rem;
+  font-size: larger;
+}
+.service-page h1 {
+  border-left:5rem solid #1F6233;
+  padding-left: 3rem;
+}
+.services {
+  display:  grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-gap: 5rem 4rem;
+  padding: 5rem 7rem 7rem 5.5rem;
+  text-align: center;
+}
+.service {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+.service-name {
+  width: auto;
+  border-bottom: 3px solid #1F6233;
+  padding-left: 0 !important;
+  padding-bottom: 0.5rem !important;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.service p {
+  color: #a09f9f;
+  line-height: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.service-name {
+  padding: 1rem 0 1.5rem;
+  font-weight: 600;
+  color: #5c5b5b !important;
+}
+.service img {
+  height:100%;
+  width: 100%;
+}
+
+/*Product section page*/
+.product-section-page {
+  padding-top: 5rem;
+}
+.product-section-page .products {
+  padding-top: 5rem;
+}
+.product-section-page h1 {
+  border-left:5rem solid #1F6233;
+  padding-left: 3rem;
+}
+
+/*about page*/
+.about-page {
+  padding: 5rem 0 5rem;
+  color: #999898;
+  line-height: 1.5rem;
+}
+.about-page h1{
+  border-left:5rem solid #1F6233;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.about-page p {
+  padding-top: 2rem;
+  padding-left: 8rem;
+
 }
