@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.underconstruction-content {
+  text-align: center;
+  display:  grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 5rem 4rem;
+}
+.section {
+  width: 50%;
+  padding-top: 10rem;
+}
+.left-section {
+  height: 10rem;
+  margin-left: 15rem;
+}
+.right-section {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(105, 102, 102, 0.616);
+  padding-top: 11rem;
+}
+@media (max-width: 1315px) {
+  .content {
+    flex-flow: column nowrap;
+    margin: 0 auto;
+  }
+  .left-section {
+    height: 100%;
+    margin-left: 0;
+  }
+  .right-section {
+    padding-top: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .section{
+    margin-left: 22rem;
+  }
+}

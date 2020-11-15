@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACCUTE FARMS LIMITED</title>
+  <link href="/src/styles/style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="content">
+    <div class="top-content">
+      <p>9, RASHID OYEKAN STREET, KETU, LAGOS</p>
+      <div class="contact">
+        <ul>
+          <li class="contact-number">Call +234 8163123967, +234 7084117299 </li>
+          <li class="zocial-facebook contact-icons"></li>
+          <li class="zocial-twitter contact-icons"></li>
+          <li class="zocial-dribbble contact-icons"></li>
+          <li class="fontawesome-github contact-icons"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="logo"><img src="../src/images/AccuteLogoT.png"/></div>
+      <ul>
+        <li><a href="/pages/home.html">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li class="user"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="faculty">
+      <div class="faculty-title">
+        <h1>Making Agriculture Better</h1>
+        <p>We take pride in Agriculture so we make the best out of agriculture with emergin technologies</p>
+      </div>
+    </div>
+    <div class="our-service">
+      <h2>Our Services</h2>
+      <div class="teachers">
+        <div class="teacher">
+          <div class="teacher-img"><img src="../src/images/ffarm.jpg"></div>
+          <!-- <p class="teacher-course">Health Teacher</p> -->
+          <p class="teacher-name">Farming</p>
+          <p>We are a large scale fish farming company with capacity to farm over 50,000 fishes in 6months.-active.-active
+            <br><a href="#">Read more...</a>
+          </p>
+        </div>
+        <div class="teacher">
+          <div class="teacher-img"><img src="../src/images/farm.jpg"></div>
+          <!-- <p class="teacher-course">Health Teacher</p> -->
+          <p class="teacher-name">Training</p>
+          <p>Accute Farms has taken the inniative to farm and harvest cocoa twice in a year,
+            <br/><a href="#">Read more...</a>
+          </p>
+        </div>
+        <div class="teacher">
+          <div class="teacher-img"><img src="../src/images/maiza.jpg"></div>
+          <p class="teacher-name">Exporting</p>
+          <p>We exporting the finest cocoa out of Nigeria to other countries in Africa, Europe, Asia and North America.
+            <br/><a href="#">Read more...</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <h1>About</h1>
+      <p>We exporting the finest cocoa out of Nigeria to other countries in Africa, Europe, Asia and North America.
+       <br/> We exporting the finest cocoa out of Nigeria to other countries in Africa, Europe, Asia and North America.
+        <br/><a href="#">Read more...</a></p>
+    </div>
+    <div class="product-section">
+      <h1>Products</h1>
+      <div class="products">
+        <div class="product">
+          <div class="product-img"><img src="../src/images/cocoa1.jpg"></div>
+          <div class="product-name">
+            <p >Cocoa Farming</p>
+            <p>Accute Farms has taken the inniative to farm and harvest cocoa twice in a year,
+              <br/><a href="#">Read more...</a>
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img"><img src="../src/images/cocoa1.jpg"></div>
+          <div class="product-name">
+            <p >Cocoa Farming</p>
+            <p>Accute Farms has taken the inniative to farm and harvest cocoa
+            <br/><a href="#">Read more...</a>
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img"><img src="../src/images/cocoa1.jpg"></div>
+          <div class="product-name">
+            <p >Cocoa Farming</p>
+            <p>Accute Farms has taken the inniative to farm and harvest cocoa twice in a year,
+            <br/><a href="#">Read more...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="quicklinks">
+        <div class="about-educator learning">
+          <h4>Our Value</h4>
+          <p>facilis ipsum reprehendit memo Moleslias. Aut cum molisa reprehendit.
+             Eos cumque dicta adipsci archieto culpa amet
+          </p>
+        </div>
+        <div class="learning">
+          <h4>Location</h4>
+          <p>9, Rashid Oyekan Street, Ketu, Lagos Nigeria.</p>
+        </div>
+        <div class="learning">
+          <h4>Contact</h4>
+          <ul>
+            <li><a>+234 8163123967</a></li>
+            <li><a>+234 7084117299</a></li>
+            <li><a>@accutefarms</a></li>
+            <li><a>@accutefarms</a></li>
+            <li><a>accutefarms@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>Designed by <span style="border-right: 1px solid white; padding-right: 1rem; margin-right: 1rem;">Kinkidy</span> <span>Copyright 2020 Accute Farms Limited.</span></p>
+      </div>
+    </div>
+  </div>
+  <script>
+          var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+  </script>
+</body>
+</html>
