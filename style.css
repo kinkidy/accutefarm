@@ -73,7 +73,7 @@ a {
   margin-top: -1.5rem;
 }
 .faculty {
-  background: url("/src/images/farm.jpg");
+  background: url("../src/images/farm.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@ a {
   padding-bottom: 2rem;
 }
 .product-section {
-  padding: 8rem 0;
+  padding-top: 8rem ;
   text-align: center;
   background-color: #F4F4F4;
   color: #999898;
