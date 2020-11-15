@@ -1,5 +1,4 @@
 @import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
-
 /* zocial */
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
@@ -271,7 +270,4 @@ a {
   font-family: 'Montserrat', sans-serif;
   color: rgba(105, 102, 102, 0.616);
   padding-top: 8rem;
-}
-@media (max-width: 1315px) {
-
 }
