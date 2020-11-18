@@ -337,7 +337,7 @@ a {
   padding: 2rem 0;
 }
 .about-page {
-  padding: 5rem 0 5rem;
+  padding: 3rem 0 3rem;
   color: #999898;
   line-height: 1.5rem;
 }
@@ -350,9 +350,10 @@ a {
 .about-page p {
   padding-top: 2rem;
   padding-left: 8rem;
+  padding-right: 5rem;
   font-size: 1.5rem;
   line-height: 2rem;
-  width: 60%;
+  width: 100%;
 }
 /*Contact page*/
 .contact-page {
@@ -447,16 +448,31 @@ a {
   .menu{
     text-align: center;
   }
+  .service {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 3rem;
+}
+}
+@media (max-width:721px) {
+  .services {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
 }
 @media (max-width: 702px) {
 .top-content {
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
   }
 .top-content p, .contact-number {
   border-right: none;
   border-left: none;
   }
+  .menu {
+    margin: 0rem .5rem 0rem;
+}
   .faculty-title {
     width: auto;
   }
@@ -475,6 +491,20 @@ a {
   .faculty-title {
     margin: 3rem 5rem 2rem 5rem;
   }
+  .services {
+    padding: 5rem 1rem 7rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    text-align: center;
+  }
+  .service-p{
+    width: 100%;
+  }
+  .about-page p {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+  }
 }
 @media (max-width: 600px) {
   .faculty-title {
@@ -482,6 +512,9 @@ a {
   }
   .about {
     border-left: 2rem solid #1F6233;
+}
+.about-page h1 {
+  border-left: 2rem solid #1F6233;
 }
   .product {
     display: flex;
@@ -496,6 +529,18 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     padding: 5rem 7rem 7rem 3rem;
   }
+  .contact-social  .contact-name{
+    margin-left: 2rem;
+  }
+  .contact-name, .contact-social {
+    margin-left: 2rem;
+  }
+  .contact-page p {
+    margin-left: 3rem;
+}
+  .contact-page ul {
+    margin-left: 3rem;
+}
   .footer .quicklinks {
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-gap: 2rem 4rem;
