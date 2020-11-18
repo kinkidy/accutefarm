@@ -8,22 +8,45 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/f1b5e340bc.js" crossorigin="anonymous"></script>
   <link href="../style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </head>
 <body>
   <div class="content">
     <div class="top-content">
-      <p>9, RASHID OYEKAN STREET, KETU, LAGOS</p>
+      <p><i class="fas fa-map-marker-alt" style="padding-right:.5rem;"></i>9, RASHID OYEKAN STREET, KETU, LAGOS</p>
       <div class="contact">
         <ul>
           <li class="contact-number">Call +234 8163123967, +234 7084117299 </li>
           <li class="zocial-facebook contact-icons"></li>
           <li class="zocial-twitter contact-icons"></li>
-          <i class="fas fa-envelope"></i>
+          <i class="fas fa-envelope" style="margin: 0 .9rem;"></i>
+          <i class="fab fa-instagram"></i>
         </ul>
       </div>
     </div>
+    <nav class="menu navbar-expand-lg navbar-light br-light">
+      <a class="logo navbar-brand"><img src="../src/images/accuteLogo.png"/></a>
+      <div class="hamburger-menu">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a href="../pages/home.html">Home</a></li>
+            <li class="nav-item"><a href="../pages/services.html">Services</a></li>
+            <li class="nav-item"><a href="../pages/products.html">Products</a></li>
+            <li class="nav-item"><a href="../pages/about.html">About</a></li>
+            <li class="nav-item user"><a href="../pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <div class="menu">
+    <!-- <div class="menu">
       <div class="logo"><img src="../src/images/accuteLogo.png"/></div>
       <ul>
         <li><a href="../pages/home.html">Home</a></li>
@@ -32,12 +55,12 @@
         <li><a href="../pages/about.html">About</a></li>
         <li class="user"><a href="../pages/contact.html">Contact</a></li>
       </ul>
-    </div>
+    </div> -->
 
     <div class="sfaculty">
       <div class="faculty-title">
-        <h1>Making Agriculture Better</h1>
-        <p>We take pride in Agriculture so we make the best out of agriculture with emerging technologies and hardwork</p>
+        <h1>Building a strong economy</h1>
+        <p>Agriculture is the bedrock of economy</p>
       </div>
     </div>
     <div class="service-page">
@@ -46,23 +69,25 @@
         <div class="service">
           <div class="service-img"><img src="../src/images/farm1.jpg"></div>
           <div class="service-p">
-            <p class="service-name">Farming</p>
-            <p>We are a large scale fish farming company with capacity to farm over 50,000 fishes in 6months.
+            <h3 class="service-name">Farming</h3>
+            <p>We engage in the best agriculture practice to yield the finest agriculuture products of high standard that is readily available for consumption and marketing.
+              We are a large scale fish farming company with capacity to farm over 50,000 fishes in 6months.
               We indulge in intensive aquaculture of catfish. We are also invovle in cash crop farming such as cocoa, cashew, and rice.
             </p>
           </div>
         </div>
         <div class="service">
           <div class="service-p">
-            <p class="service-name">Training</p>
-            <p>This allows us to equip and produce farmers with the adequate skill to farm with ability to use modern technology and conventional practice.
+            <h3 class="service-name">Training</h3>
+            <p>Accute Farms has taken the inniative to trainig farmers in different aspect of agriculture and adherign to the best practice of farming. And also exposing farmers to modern agriculture techniques.
+              This allows us to equip and produce farmers with the adequate skill to farm with ability to use modern technology and conventional practice.
           </div>
           <div class="service-img"><img src="../src/images/tracktor.jpg"></div>
         </div>
         <div class="service">
           <div class="service-img"><img src="../src/images/export-service.jpg"></div>
           <div class="service-p">
-            <p class="service-name">Exporting</p>
+            <h3 class="service-name">Exporting</h3>
             <p>Accute farms engage in exporting of quality farm produce to other african countries, include European countries, Asia and North American countries.
               We take pride in making such our client get the best produce available.
              </p>
@@ -73,9 +98,9 @@
     <div class="footer">
       <div class="quicklinks">
         <div class="value quicklink">
-          <h4>Our Value</h4>
-          <p>facilis ipsum reprehendit memo Moleslias. Aut cum molisa reprehendit.
-             Eos cumque dicta adipsci archieto culpa amet
+          <h4>Our Values</h4>
+          <p>Our core values is building a quality, and dependable agriculture products that meets the Nigeria and internationl standard.
+            <br>To consistently deliver high-quality goods, professionals and an enable environment to practice agriculutre.
           </p>
         </div>
         <div class="location quicklink">
@@ -111,8 +136,14 @@
             </li>
             <li>
               <span>
+                <i class="fab fa-instagram"></i>
+                <a>@accutefarms</a>
+              </span>
+            </li>
+            <li>
+              <span>
                 <i class="fas fa-envelope"></i>
-                <a>accutefarms@gmail.com</a>
+                <a>info@accutefarms.com</a>
               </span>
             </li>
           </ul>

@@ -43,11 +43,11 @@ a {
 .top-content p, .contact-number {
   border-left: .098rem solid #f5f5f5;
   border-right: .098rem solid #f5f5f5;
-  padding: .5rem .5rem .5rem;
+  padding: 0rem .5rem;
   color: #7e7d7d;
 }
 .contact {
-  border-right: .098rem solid #f5f5ff;
+  /* border-right: .098rem solid #f5f5ff; */
   padding-right: .6rem;
 }
 .contact-icons {
@@ -57,7 +57,7 @@ a {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin:1.5rem 6rem 0rem ;
+  margin:0rem 6rem 0rem ;
 }
 .menu a {
   font-size: 1rem;
@@ -68,8 +68,11 @@ a {
   background-color:#1F6233;
   color: #ffffff !important;
 }
-.logo img{
-  margin-top: -1.5rem;
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+.navbar-nav {
+  padding-top: 2rem;
 }
 .faculty {
   background: url("src/images/farm.jpg");
@@ -83,8 +86,12 @@ a {
 .faculty-title {
   padding: 5rem;
   margin: 8rem 5rem 2rem 5rem ;
-  background-color: rgba(187, 187, 187, 0.26);
+  background-color: rgba(146, 145, 145, 0.452);
   width: 40%;
+  line-height: 1.5rem;
+}
+.faculty-title  h1{
+  padding-bottom: 1.5rem;
 }
 .faculty h1 {
   padding-bottom: 1.5rem;
@@ -171,6 +178,13 @@ a {
   border-bottom: 1px solid rgba(0, 128, 0, 0.233);
   border-right: 1px solid rgba(0, 128, 0, 0.247);
 }
+.product-name h3 {
+  padding-bottom: 1rem;
+  color: #7c7c7c;
+}
+.product-name p {
+  line-height: 1.5rem;
+}
 .footer {
   background-color: #1F6233;
 }
@@ -201,52 +215,13 @@ a {
   display: block;
 }
 .footer-copyright{
-  color: #ffffff;
+  color: #d1d1d1;
   text-align: left;
   font-size: .8rem;
   padding:2rem 5.5rem;
   line-height: 1.5rem;
   font-weight: 600;
   background-color: rgb(4, 51, 18);
-}
-/* Responsiveness */
-@media (max-width: 1080px) {
-  .top-content {
-    font-size: .6rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-  .menu {
-    margin:1.5rem 3rem 1rem;
-  }
-  .menu a {
-    font-size: .8rem;
-    padding:.5rem .9rem ;
-  }
-  .registration .days {
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    width: 2.8%;
-    text-align: center;
-    padding: 1rem 1rem;
-    margin-left: .5rem;
-  }
-  .registration h3 {
-    margin-bottom: .7rem;
-    font-size:1rem;
-  }
-  .registration .days p {
-    font-size:.35rem;
-    letter-spacing: .09rem;
-  }
-  .footer {
-    font-size: .6rem;
-  }
-}
-@media (max-width: 888px) {
-  .footer {
-    font-size: .3rem;
-  }
 }
 /*underconstruction*/
 .underconstruction-content {
@@ -271,7 +246,7 @@ a {
 
 /*Services*/
 .sfaculty {
-  background: url("src/images/hut.jpg");
+  background: url("src/images/farming.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -322,6 +297,9 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.service-img {
+  width :100%;
+}
 .service img {
   height:100%;
   width: 100%;
@@ -350,7 +328,7 @@ a {
 
 /*about page*/
 .afaculty {
-  background: url("src/images/crops.jpg");
+  background: url("src/images/track.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -372,6 +350,9 @@ a {
 .about-page p {
   padding-top: 2rem;
   padding-left: 8rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 60%;
 }
 /*Contact page*/
 .contact-page {
@@ -391,8 +372,6 @@ a {
 .contact-social {
   display:  grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  /* grid-gap: 5rem 4rem;
-  padding: 5rem 7rem 7rem 5.5rem; */
   text-align: left;
 }
 .contact-name {
@@ -422,4 +401,109 @@ a {
 }
 .contact-page li {
   display: block;
+}
+
+
+/*
+  RESPONSIVE
+  */
+
+@media only screen and (max-width: 1080px) {
+  .menu {
+      margin: 0rem 3rem 0rem;
+  }
+  .navbar-toggler {
+    height: 3rem;
+    margin-top: 1.2rem;
+  }
+}
+  /* Responsiveness */
+@media (max-width: 1080px) {
+  .top-content {
+    font-size: .6rem;
+    padding-right: 3rem;
+  }
+  .menu a {
+    font-size: .8rem;
+    padding:.5rem .9rem ;
+  }
+  .navbar-nav {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+  .footer {
+    font-size: .6rem;
+  }
+  .footer-copyright{
+    color: #d1d1d1;
+    font-size: .6rem;
+    padding:1rem 5.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-nav li {
+    margin: .5rem;
+  }
+  .menu{
+    text-align: center;
+  }
+}
+@media (max-width: 702px) {
+.top-content {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  }
+.top-content p, .contact-number {
+  border-right: none;
+  border-left: none;
+  }
+  .faculty-title {
+    width: auto;
+  }
+  .teacher-name {
+    padding-bottom: 0;
+  }
+  .about {
+    padding: 2.5rem 1rem 2.5rem 3.5rem;
+  }
+  .products {
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  }
+  .product-section {
+    padding-top: 3rem;
+  }
+  .faculty-title {
+    margin: 3rem 5rem 2rem 5rem;
+  }
+}
+@media (max-width: 600px) {
+  .faculty-title {
+    padding: 1rem;
+  }
+  .about {
+    border-left: 2rem solid #1F6233;
+}
+  .product {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+  .products {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding: 3rem 3rem 7rem;
+  }
+  .teachers {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    padding: 5rem 7rem 7rem 3rem;
+  }
+  .footer .quicklinks {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 2rem 4rem;
+    padding: 5rem 2rem 0;
+    padding-right: 0;
+}
+.footer-copyright{
+  padding:1rem;
+  text-align: center;
+}
 }
