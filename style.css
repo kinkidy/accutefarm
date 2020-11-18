@@ -552,3 +552,12 @@ a {
   text-align: center;
 }
 }
+@media (max-width: 450px) {
+  .top-content {
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+  .faculty-title {
+    margin: 3rem 1rem 2rem 1rem;
+}
+}
