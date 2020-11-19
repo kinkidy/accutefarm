@@ -55,8 +55,8 @@ a {
 }
 .menu {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  flex-flow: row nowrap !important;
+  justify-content: space-between !important;
   margin:0rem 6rem 0rem ;
 }
 .menu a {
@@ -64,16 +64,21 @@ a {
   color: #5c5b5b;
   padding:.5rem .9rem ;
 }
-.menu .user a {
+.menu li a:hover{
   background-color:#1F6233;
   color: #ffffff !important;
+  text-decoration: none;
 }
 .navbar-collapse {
   flex-grow: 0 !important;
 }
 .navbar-nav {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
+/* .menu li:hover {
+  background-color: #5F8B1A;
+  text-decoration: none;
+} */
 .faculty {
   background: url("src/images/farm.jpg");
   background-size: cover;
