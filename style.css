@@ -75,12 +75,8 @@ a {
 .navbar-nav {
   padding-top: 1.5rem;
 }
-/* .menu li:hover {
-  background-color: #5F8B1A;
-  text-decoration: none;
-} */
 .faculty {
-  background: url("src/images/farm.jpg");
+  background: url("https://res.cloudinary.com/kinkidy/image/upload/v1605779310/accutefarms/farm.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -251,7 +247,7 @@ a {
 
 /*Services*/
 .sfaculty {
-  background: url("src/images/farming.jpg");
+  background: url("https://res.cloudinary.com/kinkidy/image/upload/v1605779342/accutefarms/farming.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -312,7 +308,7 @@ a {
 
 /*Product section page*/
 .pfaculty {
-  background: url("src/images/export.jpg");
+  background: url("https://res.cloudinary.com/kinkidy/image/upload/v1605779337/accutefarms/export.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -333,7 +329,7 @@ a {
 
 /*about page*/
 .afaculty {
-  background: url("src/images/track.jpg");
+  background: url("https://res.cloudinary.com/kinkidy/image/upload/v1605779318/accutefarms/track.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
