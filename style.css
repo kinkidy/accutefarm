@@ -76,7 +76,7 @@ a {
   padding-top: 1.5rem;
 }
 .faculty {
-  background: url("https://res.cloudinary.com/kinkidy/image/upload/v1605779310/accutefarms/farm.jpg");
+  background: url("/src/images/acct.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,6 +185,24 @@ a {
 }
 .product-name p {
   line-height: 1.5rem;
+}
+.w3-third, video {
+  width:400px ;
+  height:313px ;
+  text-align: center;
+}
+.gallery {
+  padding: 2rem 1rem 3.5rem ;
+}
+.w3-row-padding {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.w3-container h1 {
+  margin:2rem 0 2rem 5rem;
+  padding-left: 1rem;
+  border-left: 3.5px solid green;
 }
 .footer {
   background-color: #1F6233;
@@ -418,6 +436,10 @@ a {
     height: 3rem;
     margin-top: 1.2rem;
   }
+  .w3-third, video {
+    width:300px !important;
+    height:313px !important;
+  }
 }
   /* Responsiveness */
 @media (max-width: 1080px) {
@@ -560,5 +582,13 @@ a {
 }
   .faculty-title {
     margin: 3rem 1rem 2rem 1rem;
+}
+.gallery {
+  padding: 2rem 1rem 3.5rem 2.5rem;
+}
+.w3-container h1 {
+  margin:2rem 0 2rem .5rem;
+  padding-left: 1rem;
+  border-left: 3.5px solid green;
 }
 }
