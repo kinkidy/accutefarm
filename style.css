@@ -76,7 +76,7 @@ a {
   padding-top: 1.5rem;
 }
 .faculty {
-  background: url("/src/images/acct.jpg");
+  background: url("https://res.cloudinary.com/kinkidy/image/upload/v1606123305/accutefarms/acct.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
