@@ -186,17 +186,20 @@ a {
 .product-name p {
   line-height: 1.5rem;
 }
-.w3-third, video {
+video, .w3-third img {
   width:400px ;
-  height:313px ;
+  min-height: 350px;
+  max-height:350px ;
   text-align: center;
 }
 .gallery {
   padding: 2rem 1rem 3.5rem ;
 }
+
 .w3-row-padding {
   text-align: center;
   width: 100%;
+  height:400px ;
   margin: 0 auto;
 }
 .w3-container h1 {
